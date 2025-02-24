@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+      height: 100vh;
+      width: 100%;
+      background-color: #000;
+}
+
+header {
+    width: 100%;
+   
+}
+
+header nav {
+    background-color: #000;
+    width: 100%;
+    padding: 15px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+header nav ul img {
+    height: 100px;
+    
+}
+
+header nav ul li {
+    margin-top: 35px;
+}
+
+header nav ul li:hover a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+header .logo-contato {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 250px;
+    top: 15px;
+}
+
+header .logo-contato img{
+    border-radius: 50% 50% 15px 50%;
+    height: 50px;
+}
+
+article {
+    display: flex;
+    background-color: #000;
+   height: 100vh;
+}
+
+article img {
+    width: 50%;
+    height: 100%;
+}
+
+.img1 {
+    height: 100%; 
+    margin-top: 30px;
+}
+
+.img2 {
+    margin-top: 50px;
+    height: 90%;
+}
+
+.logotelamenor {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.chamativa {
+    display: flex;
+}
+
+section h1 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: maroon;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 8px #fff ;
+    
+}
+
+.lanche img {
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.containerLanche {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #000;
+}
+
+
+
+.lanche {
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+    background-color: #fff;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+section button {
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(18, 160, 18);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ .carrinho {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f8f8f8;
+    text-align: center;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 10px;
+}
+
+.carrinho a {
+    text-decoration: none;
+    color: #fff;
+}
+ .carrinho ul {
+    list-style: none;
+    padding: 0;
+}
+
+ .carrinho li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+ .btn-remover {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 17px;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
