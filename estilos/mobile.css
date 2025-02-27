@@ -87,3 +87,18 @@ section h1 {
 }
 
 
+@media screen and (width >= 676px) {
+  header .logo-contato {
+    position: relative;
+    left: 10%;
+  } 
+
+  .containerLanche {
+
+    
+  }
+
+  html, body {
+    width: 100%;
+  }
+}
