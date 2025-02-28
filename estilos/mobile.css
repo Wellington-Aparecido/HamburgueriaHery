@@ -1,4 +1,4 @@
-@media screen and (width <= 675px) {
+@media screen and (width <= 825px) {
 
 .chamativa {
   display: none ;
@@ -6,8 +6,6 @@
 
 .logotelamenor {
   display: block;
-
-
 }
 
 .logoheader {
@@ -56,13 +54,11 @@ section h1 {
 }
 
 .item.active {
-  display: block;[
-
-
-
-
-  ]
+  display: block;
 }
+
+  
+
 
 /* Estiliza os botões */
 .buttons {
@@ -88,17 +84,16 @@ section h1 {
 
 
 @media screen and (width >= 676px) {
+
   header .logo-contato {
     position: relative;
-    left: 10%;
-  } 
-
-  .containerLanche {
-
-    
+    left: 40px;
   }
 
-  html, body {
-    width: 100%;
+
+  article img {
+    width: 50%;
   }
+
 }
+
