@@ -155,15 +155,25 @@ section button {
     cursor: pointer;
 }
 
+.material-symbols-outlined {
+    color: #fff ;
+    position: relative;
+    left: 950px;
+    top: -84px;
+    background-color: #01BD25;
+    padding: 13px;
+    border-radius: 50%;
+}
+
 .carrinho.fixado {
     position: fixed;
-    top: 0;
-    right: 15px;
+    top: 150px;
+    right: 20px;
 }
 
  .carrinho {
     position: absolute;
-    top: 88px;
+    top: 250px;
     right: 20px;
     z-index: 1000;
     max-width: 340px;
