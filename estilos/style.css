@@ -155,12 +155,18 @@ section button {
     cursor: pointer;
 }
 
+.carrinho.fixado {
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
  .carrinho {
     position: absolute;
-    top: 100px;
+    top: 88px;
     right: 20px;
     z-index: 1000;
-    max-width: 500px;
+    max-width: 340px;
     margin: 50px auto;
     padding: 20px;
     border: 2px solid #333;
@@ -168,12 +174,6 @@ section button {
     text-align: center;
     box-shadow: 0px 0px 10px #fff;
     border-radius: 10px;
-}
-
-.carrinho.fixado {
-    position: fixed;
-    top: 0;
-    right: 0;
 }
 
 .carrinho a {

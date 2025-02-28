@@ -62,5 +62,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-    
+const carrinho = document.getElementById('carrinho');
+
+window.addEventListener('scroll',() => {
+    if(window.scrollY > 100) {
+        carrinho.classList.add('fixado');
+    } else {
+        carrinho.classList.remove('fixado');
+    }
+});
 
