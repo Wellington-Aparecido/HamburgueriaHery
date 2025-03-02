@@ -125,6 +125,8 @@ section h1 {
 }
 
 .containerLanche {
+    overflow-y: auto;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #000;    
@@ -165,17 +167,14 @@ section button {
     border-radius: 50%;
 }
 
-.carrinho.fixado {
-    position: fixed;
-    top: 150px;
-    right: 20px;
-}
+
 
  .carrinho {
-    position: absolute;
-    top: 250px;
-    right: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
     z-index: 1000;
+    
     max-width: 340px;
     margin: 50px auto;
     padding: 20px;
