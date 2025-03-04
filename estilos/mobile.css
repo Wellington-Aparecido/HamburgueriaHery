@@ -33,8 +33,6 @@ section h1 {
   margin-top: 180px;
 }
 
-.containerBebidas {
-}
 
 header .logo-contato {
   position: relative;
@@ -98,5 +96,36 @@ section h1 {
     width: 50%;
   }
 
+}
+
+@media screen and (width <= 1026px) {
+
+  .containerBebidas {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (width <= 922px) {
+  aside {
+    height: 50vh;
+  }
+
+  
+  
+
+  aside.refrigerantes {
+    height: 50vh;
+  }
+}
+
+@media screen and (width <= 674px) {
+  aside.refrigerantes {
+    height: 54vh;
+  }
+
+  .containerBebidas {
+    font-size: 12px;
+  }
 }
 

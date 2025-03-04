@@ -72,7 +72,7 @@ header .logo-contato img{
 article {
     display: flex;
     background-color: #000;
-   height: 100vh;
+    height: 100vh;
 }
 
 article img {
@@ -173,10 +173,10 @@ aside h1 {
 
 aside .containerBebidas {
     background-color: #fff;
-    height: 200px;
+    height: 40vh;
     display: flex;
+    gap: 10px;
     flex-direction: row;
-    gap: 150px;
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
