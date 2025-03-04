@@ -110,7 +110,7 @@ section h1 {
     text-align: center;
     padding: 20px;
     background-color: maroon;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 0 0 10px 10px;
     box-shadow: 2px 2px 8px #fff ;
@@ -133,7 +133,6 @@ section h1 {
 }
 
 
-
 .lanche {
     display: flex;
     flex-basis: 5%;
@@ -148,6 +147,49 @@ section h1 {
 }
 
 section button {
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(18, 160, 18);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+aside {
+    height: 100%;
+}
+
+aside h1 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: maroon;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 8px #fff ;
+}
+
+aside .containerBebidas {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+aside img {
+    height: 100px;
+
+}
+
+aside button {
     margin-top: 10px;
     color: #fff;
     background-color: rgb(18, 160, 18);
