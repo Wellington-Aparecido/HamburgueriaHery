@@ -106,26 +106,7 @@ section h1 {
 
 }
 
-@media screen and (width <= 922px) {
-  aside {
-    height: 50vh;
-  }
 
-  
-  
 
-  aside.refrigerantes {
-    height: 50vh;
-  }
-}
 
-@media screen and (width <= 674px) {
-  aside.refrigerantes {
-    height: 54vh;
-  }
-
-  .containerBebidas {
-    font-size: 12px;
-  }
-}
 

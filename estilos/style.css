@@ -173,13 +173,14 @@ aside h1 {
 
 aside .containerBebidas {
     background-color: #fff;
-    height: 40vh;
+    height: 250px;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: row;
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
+
     
 }
 
