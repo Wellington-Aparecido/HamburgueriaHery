@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        let pedido = carrinho.map(item => `🍔 ${item.nome} - R$${item.preco.toFixed(2)}`).join("\n");
+        let pedido = carrinho.map(item => ` ${item.nome} - R$${item.preco.toFixed(2)}`).join("\n");
         let mensagem = `Olá, gostaria de fazer um pedido:\n\n${pedido}\n\n💰 Total: R$${total.toFixed(2)}`;
 
         // Número do WhatsApp da lanchonete (substitua pelo número correto com DDD)
