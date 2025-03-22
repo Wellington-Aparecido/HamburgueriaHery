@@ -31,7 +31,7 @@ section h1 {
   grid-template-columns: repeat(1, 1fr);
   background-color: #000; 
   margin-top: 180px;
-  height:500px;
+  height: 600px;
 }
 
 
