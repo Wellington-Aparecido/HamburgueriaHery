@@ -50,10 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
       }
 
       let pedido = carrinho.map(item => `${item.nome} - R$${item.preco.toFixed(2)}`).join("\n");
-      alert(`Pedido enviado para a lanchonete! \n${pedido}\nTotal: R$${total.toFixed(2)}`);
+      alert
+      (`Pedido enviado para a lanchonete! \n${pedido}\nTotal: R$${total.toFixed(2)}`);
 
-      // Aqui você pode enviar o pedido para um servidor via fetch()
-      // Exemplo: fetch("/api/pedido", { method: "POST", body: JSON.stringify(carrinho) });
 
       // Limpar carrinho
       carrinho = [];

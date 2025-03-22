@@ -126,7 +126,7 @@ section h1 {
 
 .containerLanche {
     overflow-y: auto;
-    height: 300px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #000;    
@@ -180,8 +180,6 @@ aside .containerBebidas {
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
-
-    
 }
 
 
